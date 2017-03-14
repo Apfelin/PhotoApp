@@ -1,5 +1,6 @@
 # PhotoApp
 Photo-sharing website
+
 Author: Vlad Pelin
 
 -----
