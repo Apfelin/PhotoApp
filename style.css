@@ -1,0 +1,206 @@
+body, html {
+	
+	background-color: #d6efff;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size: 16px;
+	margin-top: 30px;
+	height: 100%;
+}
+
+.login-container {
+	
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.email-login {
+	
+	background-color: white;
+	background-image: url('imgs/user.png');
+	background-size: 15px 15px;
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	margin: 8px 0;
+}
+
+.pass-login {
+	
+	background-color: white;
+	background-image: url('imgs/lock.png');
+	background-size: 15px 15px;
+	background-position: 5px;
+	background-repeat: no-repeat;
+	padding-left: 20px;
+	margin: 8px 0;
+}
+
+.account-link {
+	
+	font-size: 13px;
+	position: fixed;
+	top: 59%;
+	left: 43.5%;
+	transfrom: translate(-50%, -50%);
+}
+
+.alert-login {
+	
+	font-size: 16px;
+	position: fixed;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.register-container {
+	
+	font-size: 16px;
+	position: fixed;
+	width: 500px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.form-control {
+	
+	background-color: white;
+	padding-left: 5px;
+	margin: 5px 0;
+}
+
+.danger-register {
+	
+	width: 500px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.succ-register {
+	
+	width: 500px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.image {
+	
+	width: 850px;
+	height: 620px;
+	background-position: center;
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.photos-container {
+	
+  width: 70%;
+  height: 100%;
+}
+
+.photos-container div {
+	
+	margin: 5px;
+	padding: 0;
+}
+
+.photos-container > .row {
+	
+	height: 65%;
+	min-width: 400px;
+	min-height: 300px;
+	background-color: #96c6e0;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.photos-container > .row > .img-container > .user-info {
+
+	background-color: #3e85a5;
+	border-radius: 8px;
+	color: white;
+	text-shadow: 1px 2px black;
+	width: 32.7%;
+	margin-left: 0.70%;
+}
+
+.photos-container > .row > .img-container > .user-info > h4 {
+	
+	margin-left: 2%;
+}
+
+.photos-container > .row > .img-container > .user-info > .user-name {
+	
+	width: 40%;
+}
+
+.photos-container > .row > .img-container > .user-info > .user-likes {
+	
+	width: 10%;
+}
+
+.photos-container > .row > .img-container > .user-info > h4 > .glyphicon {
+	
+	color: white;
+}
+
+.photos-container > .row > .img-container > .comm-container {
+	
+	text-align: center;
+}
+
+.photos-container > .row > .img-container > .comm-container > .add-comm > .comm-text {
+	
+	margin: 3px;
+}
+
+.photos-container > .row > .img-container > .comm-container > .add-comm > .comm-btn {
+	
+	margin: 3px;
+}
+
+.photos-container > .row > .img-container > .comments > .row {
+	
+	background-color: #3e85a5;
+	color: white;
+	border-radius: 8px;
+	margin: 3px;
+}
+
+.photos-container > .row > .img-container > .comments > .row > .user {
+	
+	color: white;
+	font-size: 18px;
+	border-radius: 8px;
+	text-shadow: 1px 2px black;
+	width: 80%;
+	margin: 3px;
+	padding-left: 10%;
+}
+
+.up-container {
+	
+	font-size: 16px;
+	position: fixed;
+	width: 25%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.up-file {
+	
+	margin-bottom: 8px;
+}
+
+.up-alert {
+	
+	position: fixed;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
